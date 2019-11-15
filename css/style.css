@@ -5,19 +5,41 @@
 }
 
 .container{
-  height: 15px;
+  height: 100px;
+  width: 100%;
   margin:  25px;
 }
+
 .container-gaeta{
   height: 15vw;
   width: 30%;
   background-image: url(../img/10-cose-da-vedere-a-Gaeta.jpg);
-  /* background-repeat: no-repeat; */
   background-size: cover;
   position: relative;
   border-radius: 7px;
-
+  margin-bottom: 15px;
 }
+
+.container-amsterdam{
+  height: 15vw;
+  width: 30%;
+  background-image: url(../img/amsterdam.jpg);
+  background-size: cover;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.container-newyork{
+  height: 15vw;
+  width: 30%;
+  background-image: url(../img/1_318_02.jpg);
+  background-size: cover;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
 
 .layover{
   position: absolute;
@@ -26,7 +48,6 @@
   height: 100%;
   width: 100%;
   background-color: rgba(210, 210, 210, 0.6);
-
 }
 
 .titolo{
@@ -35,14 +56,16 @@
   left:50%;
   transform: translate(-50%, -50%);
   font-size: 5em;
-  color: white;
+  color: black;
+  font-style: italic;
+}
+/* solo per new york per allinearlo bene al centro essendo due parole */
+.titolo-newyork{
+  text-align: center;
 }
 
-.layover:hover .titolo {
+.container-città:hover .layover {
   background-color: rgba(255, 255, 255, 0.1);
-
+   cursor: pointer;
 
 }
- .container-gaeta:hover{
-   cursor: pointer;
- }

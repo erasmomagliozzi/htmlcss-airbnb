@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 15px;
+  margin:  25px;
+}
+.container-gaeta{
+  height: 15vw;
+  width: 30%;
+  background-image: url(../img/10-cose-da-vedere-a-Gaeta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 7px;
+
+}
+
+.titolo{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  color: white;
+}
+
+#layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(210, 210, 210, 0.6);
+  visibility: visible;
+}
+
+#layover:hover {
+  visibility: hidden;
+
+}
+ .container-gaeta:hover{
+   cursor: pointer;
+ }

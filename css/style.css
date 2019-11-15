@@ -12,10 +12,20 @@
   height: 15vw;
   width: 30%;
   background-image: url(../img/10-cose-da-vedere-a-Gaeta.jpg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   position: relative;
   border-radius: 7px;
+
+}
+
+.layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(210, 210, 210, 0.6);
 
 }
 
@@ -28,18 +38,9 @@
   color: white;
 }
 
-#layover{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(210, 210, 210, 0.6);
-  visibility: visible;
-}
+.layover:hover .titolo {
+  background-color: rgba(255, 255, 255, 0.1);
 
-#layover:hover {
-  visibility: hidden;
 
 }
  .container-gaeta:hover{

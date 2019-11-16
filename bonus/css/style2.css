@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100px;
+  width: 500px;
+  margin:  25px;
+}
+
+.container-gaeta{
+  height: 15vw;
+  width: 100%;
+  background-image: url(../img2/10-cose-da-vedere-a-Gaeta.jpg);
+  background-size: cover;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.container-amsterdam{
+  height: 15vw;
+  width: 100%;
+  background-image: url(../img2/amsterdam.jpg);
+  background-size: cover;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.container-newyork{
+  height: 15vw;
+  width: 100%;
+  background-image: url(../img2/1_318_02.jpg);
+  background-size: cover;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+
+.layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(210, 210, 210, 0.6);
+}
+
+.titolo{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  color: black;
+  font-style: italic;
+  text-shadow: 5px 5px 5px rgb(237, 147, 147);
+}
+/* solo per new york per allinearlo bene al centro essendo due parole */
+.titolo-newyork{
+  text-align: center;
+}
+
+.container-città:hover .layover {
+  background-color: rgba(255, 255, 255, 0.1);
+   cursor: pointer;
+}
+.container-città {
+  box-shadow: 5px 5px 5px rgb(237, 147, 147);
+
+}
+
+.container-città:hover .titolo {
+  text-shadow: none;
+  }
+
+.container-città:hover {
+    box-shadow: none;
+}
+
+nav {
+  /* width: 375%; */
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 82px;
+  top: 0;
+  z-index: 1;
+
+}
+ul.menu .logo{
+  width: 100px;
+  vertical-align: middle;
+
+
+}
+.menu li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 50px;
+  }
+
+  .menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(237, 147, 147);
+  }
+a:hover {
+  color: red;
+  text-decoration: underline red;
+}
+
+main {
+  margin-top: 85px;
+}
